@@ -1,1 +1,0 @@
-export { default } from "/Users/elviswu/Documents/c_sharp_proj/TPIMS/tpims.client/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"
