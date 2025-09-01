@@ -1,0 +1,6 @@
+export interface WeatherForecastResponseDto {
+  date: string
+  temperatureC: number
+  temperatureF: number
+  summary: string
+}

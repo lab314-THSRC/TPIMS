@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">tpims.client</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">nuxt build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">nuxt dev --open --host</PackageJsonScriptsDev>
+    <PackageJsonScriptsGenerate Condition="$(PackageJsonScriptsGenerate) == ''">nuxt generate</PackageJsonScriptsGenerate>
+    <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">nuxt preview</PackageJsonScriptsPreview>
+    <PackageJsonScriptsPostinstall Condition="$(PackageJsonScriptsPostinstall) == ''">nuxt prepare</PackageJsonScriptsPostinstall>
+    <PackageJsonDependenciesNuxtContent Condition="$(PackageJsonDependenciesNuxtContent) == ''">^3.6.3</PackageJsonDependenciesNuxtContent>
+    <PackageJsonDependenciesNuxtEslint Condition="$(PackageJsonDependenciesNuxtEslint) == ''">^1.9.0</PackageJsonDependenciesNuxtEslint>
+    <PackageJsonDependenciesNuxtFonts Condition="$(PackageJsonDependenciesNuxtFonts) == ''">^0.11.4</PackageJsonDependenciesNuxtFonts>
+    <PackageJsonDependenciesNuxtImage Condition="$(PackageJsonDependenciesNuxtImage) == ''">^1.11.0</PackageJsonDependenciesNuxtImage>
+    <PackageJsonDependenciesNuxtScripts Condition="$(PackageJsonDependenciesNuxtScripts) == ''">^0.11.10</PackageJsonDependenciesNuxtScripts>
+    <PackageJsonDependenciesNuxtTestUtils Condition="$(PackageJsonDependenciesNuxtTestUtils) == ''">^3.19.2</PackageJsonDependenciesNuxtTestUtils>
+    <PackageJsonDependenciesNuxtjsDevice Condition="$(PackageJsonDependenciesNuxtjsDevice) == ''">^3.2.4</PackageJsonDependenciesNuxtjsDevice>
+    <PackageJsonDependenciesPiniaNuxt Condition="$(PackageJsonDependenciesPiniaNuxt) == ''">^0.11.2</PackageJsonDependenciesPiniaNuxt>
+    <PackageJsonDependenciesTailwindcssVite Condition="$(PackageJsonDependenciesTailwindcssVite) == ''">^4.1.12</PackageJsonDependenciesTailwindcssVite>
+    <PackageJsonDependenciesTanstackVueTable Condition="$(PackageJsonDependenciesTanstackVueTable) == ''">^8.21.3</PackageJsonDependenciesTanstackVueTable>
+    <PackageJsonDependenciesUnheadVue Condition="$(PackageJsonDependenciesUnheadVue) == ''">^2.0.14</PackageJsonDependenciesUnheadVue>
+    <PackageJsonDependenciesVeeValidateZod Condition="$(PackageJsonDependenciesVeeValidateZod) == ''">^4.15.1</PackageJsonDependenciesVeeValidateZod>
+    <PackageJsonDependenciesVueuseCore Condition="$(PackageJsonDependenciesVueuseCore) == ''">^13.8.0</PackageJsonDependenciesVueuseCore>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.11.0</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesBetterSqlite3 Condition="$(PackageJsonDependenciesBetterSqlite3) == ''">^12.2.0</PackageJsonDependenciesBetterSqlite3>
+    <PackageJsonDependenciesClassVarianceAuthority Condition="$(PackageJsonDependenciesClassVarianceAuthority) == ''">^0.7.1</PackageJsonDependenciesClassVarianceAuthority>
+    <PackageJsonDependenciesClsx Condition="$(PackageJsonDependenciesClsx) == ''">^2.1.1</PackageJsonDependenciesClsx>
+    <PackageJsonDependenciesEslint Condition="$(PackageJsonDependenciesEslint) == ''">^9.33.0</PackageJsonDependenciesEslint>
+    <PackageJsonDependenciesLucideVueNext Condition="$(PackageJsonDependenciesLucideVueNext) == ''">^0.540.0</PackageJsonDependenciesLucideVueNext>
+    <PackageJsonDependenciesNuxt Condition="$(PackageJsonDependenciesNuxt) == ''">^4.0.3</PackageJsonDependenciesNuxt>
+    <PackageJsonDependenciesPinia Condition="$(PackageJsonDependenciesPinia) == ''">^3.0.3</PackageJsonDependenciesPinia>
+    <PackageJsonDependenciesPrettier Condition="$(PackageJsonDependenciesPrettier) == ''">^3.6.2</PackageJsonDependenciesPrettier>
+    <PackageJsonDependenciesPrettierPluginTailwindcss Condition="$(PackageJsonDependenciesPrettierPluginTailwindcss) == ''">^0.6.14</PackageJsonDependenciesPrettierPluginTailwindcss>
+    <PackageJsonDependenciesRekaUi Condition="$(PackageJsonDependenciesRekaUi) == ''">^2.5.0</PackageJsonDependenciesRekaUi>
+    <PackageJsonDependenciesShadcnNuxt Condition="$(PackageJsonDependenciesShadcnNuxt) == ''">^2.2.0</PackageJsonDependenciesShadcnNuxt>
+    <PackageJsonDependenciesTailwindMerge Condition="$(PackageJsonDependenciesTailwindMerge) == ''">^3.3.1</PackageJsonDependenciesTailwindMerge>
+    <PackageJsonDependenciesTailwindcss Condition="$(PackageJsonDependenciesTailwindcss) == ''">^4.1.12</PackageJsonDependenciesTailwindcss>
+    <PackageJsonDependenciesTwAnimateCss Condition="$(PackageJsonDependenciesTwAnimateCss) == ''">^1.3.7</PackageJsonDependenciesTwAnimateCss>
+    <PackageJsonDependenciesVeeValidate Condition="$(PackageJsonDependenciesVeeValidate) == ''">^4.15.1</PackageJsonDependenciesVeeValidate>
+    <PackageJsonDependenciesVue Condition="$(PackageJsonDependenciesVue) == ''">^3.5.18</PackageJsonDependenciesVue>
+    <PackageJsonDependenciesVueRouter Condition="$(PackageJsonDependenciesVueRouter) == ''">^4.5.1</PackageJsonDependenciesVueRouter>
+    <PackageJsonDependenciesZod Condition="$(PackageJsonDependenciesZod) == ''">^3.25.76</PackageJsonDependenciesZod>
+    <PackageJsonDevdependenciesIconifyJsonRadixIcons Condition="$(PackageJsonDevdependenciesIconifyJsonRadixIcons) == ''">^1.2.4</PackageJsonDevdependenciesIconifyJsonRadixIcons>
+    <PackageJsonDevdependenciesIconifyVue Condition="$(PackageJsonDevdependenciesIconifyVue) == ''">^5.0.0</PackageJsonDevdependenciesIconifyVue>
+    <PackageJsonDevdependenciesNuxtjsColorMode Condition="$(PackageJsonDevdependenciesNuxtjsColorMode) == ''">^3.5.2</PackageJsonDevdependenciesNuxtjsColorMode>
+    <PackageJsonDevdependenciesEslintConfigPrettier Condition="$(PackageJsonDevdependenciesEslintConfigPrettier) == ''">^10.1.8</PackageJsonDevdependenciesEslintConfigPrettier>
+    <PackageJsonDevdependenciesTailwindcssAnimate Condition="$(PackageJsonDevdependenciesTailwindcssAnimate) == ''">^1.0.7</PackageJsonDevdependenciesTailwindcssAnimate>
+  </PropertyGroup>
+</Project>

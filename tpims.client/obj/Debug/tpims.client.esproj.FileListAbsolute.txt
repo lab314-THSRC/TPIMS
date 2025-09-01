@@ -1,0 +1,1 @@
+/Users/elviswu/Documents/c_sharp_proj/TPIMS/tpims.client/obj/Debug/tpims.client.esproj.CoreCompileInputs.cache

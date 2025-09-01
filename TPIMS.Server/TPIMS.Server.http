@@ -1,0 +1,6 @@
+@TPIMS.Server_HostAddress = http://localhost:5155
+
+GET {{TPIMS.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

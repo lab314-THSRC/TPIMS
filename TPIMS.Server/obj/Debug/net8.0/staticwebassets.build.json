@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "4uXvRcGHJGR4bXAqTq7QNzdm45tAtc0zjTJA2YL3IKg=",
+  "Source": "TPIMS.Server",
+  "BasePath": "_content/TPIMS.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/elviswu/Documents/c_sharp_proj/TPIMS/tpims.client/tpims.client.esproj",
+      "Version": 2,
+      "Source": "tpims.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
